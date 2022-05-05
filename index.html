@@ -4,9 +4,109 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>My Projects </title>
+    <title>Rômulo Queiroz </title>
+    <!-- Icone  -->
+    <link rel="shortcut icon" href="./img/favicon.ico" type="image/x-icon">
+    <!-- Meus estilos CSS -->
+    <link rel="stylesheet" href="./css/style.css">
+    <!-- FONTES -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@100&family=Share+Tech+Mono&display=swap" rel="stylesheet">
 </head>
 <body>
-    <h1>Teste</h1>
+    <!-- Navbar -->
+    <header id="navbar">
+        <img src="img/avatar.png" alt="Logo-R">
+        <h2>Rômulo Queiroz</h2>
+        <nav>
+            <ul id="navbar-list">
+                <li><a href="index.html">Inicio</a></li>
+                <li><a href="">Sobre</a></li>
+                <li><a href="#">Contato</a></li>
+            </ul>
+        </nav>
+    </header>
+    <!-- FIM Navbar -->
+
+    <!-- Banner  -->
+    <main id="main-banner">
+        <div id="banner-info">
+            <h1 class="line typing-animation">Hello, i'm Rômulo Queiroz</h1>
+            <img src="img/avatar.png" alt="Logo-Rômulo">
+            <p>Web developer</p>
+        </div>
+    <!-- FIM  Banner  -->
+
+    <!-- Sobre -->
+        <section id="About-section">
+            <h2>About:</h2>
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Voluptatibus corporis velit aliquam, possimus aliquid sunt, rem odio ipsam saepe deleniti architecto minima sequi, officia dolores ipsa? Aliquid, porro sed! Vitae?</p>
+        </section>    
+     <!-- FIM Sobre -->
+    </main>
+
+    <!-- Meus skills -->
+    <section id="skills-section">
+        <div class="container">
+            <div class="skills-container">
+                <img src="img/Coding-Html-icon.png" alt="HTML-img">
+                <h3>Desenvolvimento</h3>
+                <p>Toda estrutura do site criado com HTML semântico.</p>
+                <p class="subtitle">O que é HTML semântico?</p>
+                <p>Uma boa prática, informa o SEO onde estão os conteudos. Também traz sentido para futuras manutenções. Especificando onde fica cada elemento.</p>
+                <p class="subtitle">O que podemos desenvolver com HTML5:</p>
+                <p>E-commerces, Sites intitucionais entre outos</p>
+            </div>
+            <div class="skills-container central">
+                <img src="img/github-icon.png" alt="GitHub-img">
+                <h3>Controle de versionamento</h3>
+                <p>Gerencie as versões do seu produto com Git</p>
+                <p class="subtitle">O que é GIT?</p>
+                <p>O Git é um Sistema de Controle de Versão Distribuído que evita que alterações realizadas em um projeto modifiquem o código-fonte. </p>
+                <p class="subtitle">O que podemos fazer com o GitHUb?</p>
+                <p>Armazenar códigos públicos ou privados, e com o git teremos controle do versionamento do seu produto.</p>
+                
+            </div>
+            <div class="skills-container">
+                <img src="img/skills-icon.png" alt="skills-img">
+                <h3>+ sobre mim</h3>
+                <p>Manutenção em sites</p>
+                <p class="subtitle">Como funciona?</p>
+                <p>Faço manutenção no seu site, ou no site de seu cliente. Levamos a segurança e a resolução de seu problema de forma integra.</p>
+                <p class="subtitle">Qual ferramenta utilizaremos?</p>
+                <p>Git, GitHub e a plataforma de seu interesse.</p>
+               
+            </div>
+        </div>
+    </section>
+    <!-- FIM Meus skills -->
+
+    <!-- Trabalhos online -->
+    <section class="jobs-section">
+        <h2>Veja meus ultimos jobs</h2>
+        <p>Aqui estão meus ultimos trabalhos, para ver todos <a href="https://romulo-queiroz.github.io/Galeria/" target="_blank"> Clique aqui</a></p>
+        <div class="job-container">
+            <div class="job-box proj1"></div>
+            <div class="job-box proj2"></div>
+            <div class="job-box proj3"></div>
+        </div>
+    </section>
+    <!-- Fim trabalhos online -->
+
+    <!-- FOOTER -->
+    <footer>
+        <h2> Me mande uma mensagem</h2>
+        <p>Caso queira falar sobre: Projetos, jobs, freelancer.</p>
+        <img src="img/avatar.png" alt="perfil-img">
+        <form action="rfcontatosvia@gmail.com" method="post">
+            <input type="text" name="name" placeholder="Seu nome">
+            <input type="email" name="email" placeholder="Seu e-mail">
+            <textarea name="msg" placeholder="Digite sua mensagem"></textarea>
+            <input type="submit" value="Enviar">
+        </form>
+        <p>Desenvolvido por <span class="detail">Rômulo-Queiroz</span></p>
+    </footer>
+    <!-- FIM FOOTER -->
 </body>
 </html>
