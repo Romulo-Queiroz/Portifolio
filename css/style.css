@@ -256,7 +256,34 @@ footer input, footer textarea{
 footer .detail{
     color: #36BFBF
 }
-
+.git-hub{
+    width: 150px;
+    height: 170px;
+    margin-left: auto;
+    margin-right: auto ;
+    margin-bottom: 0;
+}
+.logo-git{
+    height: 50px;
+    top: 10px;
+    padding-bottom: 1px;
+}
+.subtitle-git{
+    width: auto;
+    height: 0px;
+    padding-top: 0px;
+    padding-bottom: 40px;
+}
+.subtitle-git a{
+    color: var(--cor4);
+    text-decoration: none;
+}
+.subtitle-git a:hover{
+    font-weight: bold;
+    background-color: var(--cor4);
+    color: var(--cor0);
+    
+}
 /* Responsivo para celulares-Media query */
 
 @media(max-width:480px){
