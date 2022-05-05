@@ -257,6 +257,95 @@ footer .detail{
     color: #36BFBF
 }
 
+/* Responsivo para celulares-Media query */
+
+@media(max-width:480px){
+    /* Geral */
+     p, input, textarea, #navbar-list li a{
+        font-size: 1.2em;
+    }
+  /* NAvbar */
+
+  #navbar h2{
+      display: none;
+  }
+  #navbar img {
+      top: 9px;
+  }
+  #navbar ul{
+      margin-top: 1.1rem;
+  }
+  /* Banner */
+  .main-banner{
+    height: 40vh;
+    padding-top: 5vh;
+    padding-bottom: 10vh;
+  }
+  #banner-info{
+      width: 60%;
+  }
+
+  #banner-info p{
+      margin: 0;
+      width: auto;
+  }
+
+  /* About */
+
+  #about-section{
+      padding: 2rem;
+      height: auto;
+      padding-bottom: 50px;
+  }
+
+  /* skills */
+
+  #skills-section{
+      margin-top:100%;
+  }
+  #skills-section .container{
+      flex-direction: column;
+  }
+  .skills-container h3, .skills-container .subtitle {
+      font-size: 1.3rem;
+  }
+  .skills-container {
+      padding: 25px;
+  }
+  .central{
+      border-top: 1px solid var(--cor3);
+      border-bottom: 1px solid var(--cor3);
+  }
+
+  /* JOBS */
+  .jobs-section h2, .jobs-section p {
+      width: 85%;
+      margin-left: auto;
+      margin-right: auto;
+  }
+  .job-container{
+      flex-direction: column;
+      margin-bottom: 0;
+  }
+  .job-box{
+      margin-bottom: 2rem;
+      flex: 1 1 300px;
+  }
+
+  /* Footer */
+
+  footer{
+      padding: 50px 15px;
+  }
+
+  footer form{
+      width: 100%;
+  }
+  .detail{
+      margin-top: 10px;
+      display: block;
+  }
+}
 
 /* Animação da barra final do txt */
 
